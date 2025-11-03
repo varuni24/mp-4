@@ -1,4 +1,4 @@
-import DogsDisplay from "@/components/DogList";
+import DogList from "@/components/DogList";
 import getDogs from "@/lib/getDogs";
 
 export default async function DogsPage() {
