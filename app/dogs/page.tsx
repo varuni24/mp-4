@@ -3,5 +3,5 @@ import getDogs from "@/lib/getDogs";
 
 export default async function DogsPage() {
     const dogs = await getDogs();
-    return <DogsDisplay dogList={dogs} />;
+    return <DogList dogList={dogs} />;
 }
